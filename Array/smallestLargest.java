@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.*;
-
 public class smallestLargest {
     public static int getLargest(int nums[]) {
         int largest = Integer.MIN_VALUE;
