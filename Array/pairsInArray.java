@@ -11,7 +11,7 @@ public class pairsInArray {
             }
             System.out.println();
         }
-        System.out.println("Total no of  pair = " + totalPairs);
+        System.out.println("Total no of  pair =  " + totalPairs);
     }
 
     public static void main(String[] args) {
