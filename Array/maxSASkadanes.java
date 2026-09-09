@@ -19,3 +19,24 @@ public class maxSASkadanes {
         kadanes(nums);
     }
 }
+
+// for all values negative in array this code will give the largest -ve value
+// that is - with smallest integer .
+
+// public static int maxSubArraySum(int[] arr) {
+
+// int currentSum = arr[0];
+// int maxSum = arr[0];
+
+// for (int i = 1; i < arr.length; i++) {
+
+// // Either start a new subarray
+// // or extend the previous subarray
+// currentSum = Math.max(arr[i], currentSum + arr[i]);
+
+// // Update maximum sum
+// maxSum = Math.max(maxSum, currentSum);
+// }
+
+// return maxSum;
+// }
